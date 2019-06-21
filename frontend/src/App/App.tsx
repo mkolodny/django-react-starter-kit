@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../images/logo.svg';
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App/App.tsx</code> and save to reload.
         </p>
         <a
           className="App-link"
