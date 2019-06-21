@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from '../../images/logo.svg';
-import './Home.css';
+import styled from 'styled-components';
 
 const Home: React.FC = () => {
   return (
-    <div className="Home">
-      <header className="Home-header">
-        <img src={logo} className="Home-logo" alt="logo" />
-        <p>
-          Edit <code>src/Home/Home.tsx</code> and save to reload.
-        </p>
-        <a
-          className="Home-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Paragraph>
+      Bootstrapped and ready for action :)
+    </Paragraph>
   );
 }
+
+const Paragraph = styled.p`
+  font-size: 23px;
+  text-align: center;
+  margin-top: 50px;
+`;
 
 export default Home;
