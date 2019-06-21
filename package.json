@@ -1,0 +1,15 @@
+{
+  "name": "django-react-boilerplate",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "",
+  "author": "Michael Kolodny",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "heroku-prebuild": "NODE_ENV=production cd frontend/ && yarn install && yarn build && cd .."
+  },
+  "cacheDirectories": [
+    "frontend/node_modules"
+  ]
+}
