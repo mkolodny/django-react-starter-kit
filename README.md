@@ -58,9 +58,9 @@ frontend/
   src/
     index.tsx
     store.ts
-    /components
-    /reducers
-    /images
+    components/
+    reducers/
+    images/
 ```
 
 ## Running the App
