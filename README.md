@@ -78,6 +78,7 @@ Then, in another terminal window/tab, from the root of the repository, run the b
 
 ```
 cd <your-project-name>
+pipenv shell
 ./manage.py runserver
 ```
 
