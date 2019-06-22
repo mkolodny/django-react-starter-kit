@@ -1,4 +1,4 @@
-# A starter kit for building websites with Django 🐍 and React ⚛️
+# A starter kit for building websites with<br/>Django 🐍 and React ⚛️
 
 ## Default Tools
 
