@@ -70,14 +70,14 @@ frontend/
 In one terminal window/tab, run the frontend:
 
 ```
-cd <your-project-name>/frontend
+cd <your-project-directory>/frontend
 yarn start 
 ```
 
-Then, in another terminal window/tab, from the root of the repository, run the backend:
+Then, in another terminal window/tab, run the backend:
 
 ```
-cd <your-project-name>
+cd <your-project-directory>
 pipenv shell
 ./manage.py runserver
 ```
