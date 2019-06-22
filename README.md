@@ -37,14 +37,13 @@ These are the default tools used in this starter kit:
 
         cd <your-project-name>/frontend
         yarn install
-1. (Optional) Change or remove `LICENSE` (at the root of this repo)
+1. (Optional) If you don't want to release your project under the MIT License, [change](https://choosealicense.com/) or [remove](https://choosealicense.com/no-permission/) the `LICENSE` file at the root of this repository.
 
 ## Directory Structure
 
 This is the starter kit's high-level directory structure:
 
 ```
-LICENSE
 manage.py
 Pipfile
 backend/
@@ -71,13 +70,14 @@ frontend/
 In one terminal window/tab, run the frontend:
 
 ```
-cd frontend
+cd <your-project-name>/frontend
 yarn start 
 ```
 
 Then, in another terminal window/tab, from the root of the repository, run the backend:
 
 ```
+cd <your-project-name>
 ./manage.py runserver
 ```
 
@@ -99,4 +99,4 @@ Thank you to Aatish Neupane for [this great blog post](https://librenepal.com/ar
 
 This starter kit is released under the [MIT License](https://tldrlegal.com/license/mit-license).
 
-*Note: If you don't want to release your project under the MIT License, just change or remove LICENSE (at the root of this repo) before publishing it.*
+*Note: If you don't want to release your project under the MIT License, change or remove the `LICENSE` file at the root of this repo before publishing it.*
