@@ -30,12 +30,12 @@ These are the default tools used in this starter kit:
 1. Install [Pipenv](https://docs.pipenv.org/en/latest/#install-pipenv-today)
 1. Install the backend dependencies:
 
-        cd <your-project-name>
+        cd <your-project-directory>
         pipenv install
 1. Install [Yarn](https://yarnpkg.com/en/docs/install)
 1. Install the frontend dependencies:
 
-        cd <your-project-name>/frontend
+        cd <your-project-directory>/frontend
         yarn install
 1. (Optional) If you don't want to release your project under the MIT License, [change](https://choosealicense.com/) or [remove](https://choosealicense.com/no-permission/) the `LICENSE` file at the root of this repository.
 
