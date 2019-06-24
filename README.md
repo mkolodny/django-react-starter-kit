@@ -96,6 +96,24 @@ git push heroku master
 
 Thank you to Aatish Neupane for [this great blog post](https://librenepal.com/article/django-and-create-react-app-together-on-heroku/) about getting Django and React playing nicely together on Heroku.
 
+## Unit Testing
+
+### Backend
+
+To run your backend unit tests, run:
+
+```
+cd <your-project-directory>
+./manage.py test
+```
+
+### Frontend
+
+To run your frontend unit tests, run:
+
+```
+cd <your-project-directory>/frontend
+yarn test
 
 ## License
 
