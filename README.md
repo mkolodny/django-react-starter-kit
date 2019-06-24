@@ -15,6 +15,7 @@ These are the default tools used in this starter kit:
 ### Frontend
 
 * [React](https://reactjs.org/)
+* [Create React App](https://facebook.github.io/create-react-app/docs/getting-started)
 * [Redux](https://redux.js.org/)
 * [TypeScript](https://www.typescriptlang.org)
 * [React Router](https://reacttraining.com/react-router/)
