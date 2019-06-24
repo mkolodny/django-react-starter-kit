@@ -20,6 +20,7 @@ These are the default tools used in this starter kit:
 * [TypeScript](https://www.typescriptlang.org)
 * [React Router](https://reacttraining.com/react-router/)
 * [Jest](https://jestjs.io/)
+* [Storybook](https://storybook.js.org/)
 * [Yarn](https://yarnpkg.com/en/)
 * [Styled Components](https://www.styled-components.com/)
 
@@ -114,6 +115,18 @@ To run your frontend unit tests, run:
 ```
 cd <your-project-directory>/frontend
 yarn test
+```
+
+## Building Components in Isolation
+
+This starter kit includes [Storybook](https://storybook.js.org/) to make it easy to build components in isolation. That way you don't need to run your app and go through a complex flow to see what your components look like with different props.
+
+To see what your components look like in isolation, run:
+
+```
+cd <your-project-directory>/frontend
+yarn storybook
+```
 
 ## License
 
