@@ -3,19 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "add": "^2.0.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "redux-starter-kit": "^0.5.1",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "yarn": "^1.16.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-links": "^5.1.9",
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",
+    "@types/enzyme": "^3.9.4",
     "@types/jest": "24.0.15",
     "@types/node": "12.0.8",
     "@types/react": "16.8.22",
@@ -24,6 +27,9 @@
     "@types/react-router-dom": "^4.3.4",
     "@types/storybook__react": "^4.0.2",
     "@types/styled-components": "^4.1.16",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "react-test-renderer": "^16.8.6",
     "typescript": "3.5.2"
   },
   "scripts": {

@@ -20,6 +20,7 @@ These are the default tools used in this starter kit:
 * [TypeScript](https://www.typescriptlang.org)
 * [React Router](https://reacttraining.com/react-router/)
 * [Jest](https://jestjs.io/)
+* [Enzyme](https://airbnb.io/enzyme/)
 * [Storybook](https://storybook.js.org/)
 * [Yarn](https://yarnpkg.com/en/)
 * [Styled Components](https://www.styled-components.com/)
