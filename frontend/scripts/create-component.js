@@ -73,7 +73,7 @@ const storiesFileName = path.join(directory, `${component}.stories.tsx`);
 const storiesFileContents = `import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import '../App/App.css';
+import '../../index.css';
 import ${component} from '.';
 
 storiesOf('${component}', module)
