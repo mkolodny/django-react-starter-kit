@@ -3,13 +3,13 @@ import styled from 'styled-components';
 
 const Home: React.FC = () => {
   return (
-    <Paragraph>
+    <Note>
       Bootstrapped and ready for action :)
-    </Paragraph>
+    </Note>
   );
 }
 
-const Paragraph = styled.p`
+const Note = styled.p`
   font-size: 23px;
   text-align: center;
   margin-top: 50px;
