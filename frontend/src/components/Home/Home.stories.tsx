@@ -6,4 +6,4 @@ import Home from '.';
 
 storiesOf('Home', module)
   .addDecorator(story => <Theme>{story()}</Theme>)
-  .add('default', () => <Home />)
+  .add('default', () => <Home />);
