@@ -118,6 +118,25 @@ cd <your-project-directory>/frontend
 yarn test
 ```
 
+## Creating React Components
+
+To create a new component, you can just run
+
+```
+cd <your-project-directory>/frontend
+yarn create-component <your-component-name>` // or `yarn cc <your-component-name>`
+```
+
+That will create a new directory inside of `<your-project-directory>/frontend/src/components/` with this file structure:
+
+```
+<your-component-name>/
+  index.tsx
+  <your-component-name>.tsx
+  <your-component-name>.test.tsx
+  <your-component-name>.stories.tsx
+```
+
 ## Building Components in Isolation
 
 This starter kit includes [Storybook](https://storybook.js.org/) to make it easy to build components in isolation. That way you don't need to run your app and go through a complex flow to see what your components look like with different props.
