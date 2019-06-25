@@ -15,14 +15,15 @@ These are the default tools used in this starter kit:
 ### Frontend
 
 * [React](https://reactjs.org/) - Frontend Web Framework
-* [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) - Starter Kit for React Apps
 * [Redux](https://redux.js.org/) - Store and Manage State
 * [TypeScript](https://www.typescriptlang.org) - Typechecking for JavaScript
+* [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) - Starter Kit for React Apps
 * [React Router](https://reacttraining.com/react-router/) - Navigate Single-Page Apps
+* [Redux Thunk](https://github.com/reduxjs/redux-thunk) - Async Redux Actions
 * [Jest](https://jestjs.io/) - JavaScript Testing Framework
-* [Enzyme](https://airbnb.io/enzyme/) - Framework for testing React components
+* [Enzyme](https://airbnb.io/enzyme/) - Framework for Testing React Components
 * [Storybook](https://storybook.js.org/) - Build Components in Isolation
-* [Styled Components](https://www.styled-components.com/) - Styling Components with CSS
+* [Styled Components](https://www.styled-components.com/) - Style Components with CSS
 * [Yarn](https://yarnpkg.com/en/) - Dependency Management
 
 ## Getting Started
