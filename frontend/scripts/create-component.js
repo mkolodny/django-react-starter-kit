@@ -73,11 +73,10 @@ const storiesFileName = path.join(directory, `${component}.stories.tsx`);
 const storiesFileContents = `import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import Theme from '../Theme';
+import '../App/App.css';
 import ${component} from '.';
 
 storiesOf('${component}', module)
-  .addDecorator(story => <Theme>{story()}</Theme>)
   .add('default', () => <${component} />);
 `;
 
