@@ -6,24 +6,24 @@ These are the default tools used in this starter kit:
 
 ### Backend
 
-* [Django](https://www.djangoproject.com/)
-* [Django REST Framework](https://www.django-rest-framework.org/)
-* [WhiteNoise](http://whitenoise.evans.io/en/stable/)
-* [Gunicorn](https://gunicorn.org/)
-* [Pipenv](https://docs.pipenv.org/en/latest/)
+* [Django](https://www.djangoproject.com/) - Backend Web Framework
+* [Django REST Framework](https://www.django-rest-framework.org/) - RESTful Web API Framework (TODO: Alternatives | How to Remove)
+* [WhiteNoise](http://whitenoise.evans.io/en/stable/) - Serving Static Files
+* [Gunicorn](https://gunicorn.org/) - HTTP Server
+* [Pipenv](https://docs.pipenv.org/en/latest/) - Dependency Management
 
 ### Frontend
 
-* [React](https://reactjs.org/)
-* [Create React App](https://facebook.github.io/create-react-app/docs/getting-started)
-* [Redux](https://redux.js.org/)
-* [TypeScript](https://www.typescriptlang.org)
-* [React Router](https://reacttraining.com/react-router/)
-* [Jest](https://jestjs.io/)
-* [Enzyme](https://airbnb.io/enzyme/)
-* [Storybook](https://storybook.js.org/)
-* [Yarn](https://yarnpkg.com/en/)
-* [Styled Components](https://www.styled-components.com/)
+* [React](https://reactjs.org/) - Frontend Web Framework
+* [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) - Starter Kit for React Apps
+* [Redux](https://redux.js.org/) - Store and Manage State
+* [TypeScript](https://www.typescriptlang.org) - Typechecking for JavaScript
+* [React Router](https://reacttraining.com/react-router/) - Navigate Single-Page Apps
+* [Jest](https://jestjs.io/) - JavaScript Testing Framework
+* [Enzyme](https://airbnb.io/enzyme/) - Framework for testing React components
+* [Storybook](https://storybook.js.org/) - Build Components in Isolation
+* [Styled Components](https://www.styled-components.com/) - Styling Components with CSS
+* [Yarn](https://yarnpkg.com/en/) - Dependency Management
 
 ## Getting Started
 
