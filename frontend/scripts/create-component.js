@@ -59,8 +59,10 @@ import { shallow } from 'enzyme';
 
 import ${component} from '.';
 
-it('renders without crashing', () => {
-  shallow(<${component} />);
+describe('${component}Component', () => {
+  test('renders without crashing', () => {
+    shallow(<${component} />);
+  });
 });
 `;
 
