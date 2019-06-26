@@ -7,7 +7,7 @@ These are the default tools used in this starter kit:
 ### Backend
 
 * [Django](https://www.djangoproject.com/) - Backend Web Framework
-* [Django REST Framework](https://www.django-rest-framework.org/) - RESTful Web API Framework (TODO: Alternatives | How to Remove)
+* [Django REST Framework](https://www.django-rest-framework.org/) - RESTful Web API Framework
 * [WhiteNoise](http://whitenoise.evans.io/en/stable/) - Serving Static Files
 * [Gunicorn](https://gunicorn.org/) - HTTP Server
 * [Pipenv](https://docs.pipenv.org/en/latest/) - Dependency Management
@@ -18,6 +18,7 @@ These are the default tools used in this starter kit:
 * [Redux](https://redux.js.org/) - Store and Manage State
 * [TypeScript](https://www.typescriptlang.org) - Typechecking for JavaScript
 * [Create React App](https://facebook.github.io/create-react-app/docs/getting-started) - Starter Kit for React Apps
+* [Redux Starter Kit](https://redux-starter-kit.js.org/) - Starter Kit for Redux Apps
 * [React Router](https://reacttraining.com/react-router/) - Navigate Single-Page Apps
 * [Redux Thunk](https://github.com/reduxjs/redux-thunk) - Async Redux Actions
 * [Jest](https://jestjs.io/) - JavaScript Testing Framework
@@ -25,6 +26,8 @@ These are the default tools used in this starter kit:
 * [Storybook](https://storybook.js.org/) - Build Components in Isolation
 * [Styled Components](https://www.styled-components.com/) - Style Components with CSS
 * [Yarn](https://yarnpkg.com/en/) - Dependency Management
+
+[comment]: <> (TODO: Alternatives | How to Remove <- For each dependency)
 
 ## Getting Started
 
@@ -57,14 +60,28 @@ backend/
     views.py
     models.py
     serializers.py
+    tests.py
 frontend/
   package.json
   src/
     index.tsx
-    store.ts
+    index.css  # Your global styles
     components/
-    reducers/
-    images/
+      Router/
+        RouterComponent.tsx  # Your app's routes
+      Example/
+        index.ts  # So that you can import from 'components/Example'
+        ExampleComponent.tsx
+        ExampleComponent.test.tsx
+        ExampleComponent.stories.tsx  # [Storybook](https://storybook.js.org/) stories
+    store/
+      store.ts
+      rootReducer.ts
+      Example/
+        exampleReducer.ts
+        exampleReducer.test.ts
+        exampleActions.ts
+        exampleActions.test.ts
 ```
 
 ## Running the App
