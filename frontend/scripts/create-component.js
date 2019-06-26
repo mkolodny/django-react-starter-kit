@@ -27,7 +27,7 @@ fs.mkdirSync(directory);
 /*
  * Create component file
  */
-const componentFileName = path.join(directory, `${component}.tsx`);
+const componentFileName = path.join(directory, `${component}Component.tsx`);
 const componentFileContents = `import React from 'react';
 
 const ${component}: React.FC = () => {
@@ -53,7 +53,7 @@ fs.writeFileSync(indexFileName, indexFileContents);
 /*
  * Create test file
  */
-const testFileName = path.join(directory, `${component}.test.tsx`);
+const testFileName = path.join(directory, `${component}Component.test.tsx`);
 const testFileContents = `import React from 'react';
 import { shallow } from 'enzyme';
 
@@ -71,7 +71,7 @@ fs.writeFileSync(testFileName, testFileContents);
 /*
  * Create stories file
  */
-const storiesFileName = path.join(directory, `${component}.stories.tsx`);
+const storiesFileName = path.join(directory, `${component}Component.stories.tsx`);
 const storiesFileContents = `import React from 'react';
 import { storiesOf } from '@storybook/react';
 
