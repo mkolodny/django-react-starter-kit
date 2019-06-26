@@ -43,7 +43,7 @@ fs.writeFileSync(componentFileName, componentFileContents);
  * Create index file
  */
 const indexFileName = path.join(directory, 'index.tsx');
-const indexFileContents = `import ${component} from './${component}';
+const indexFileContents = `import ${component} from './${component}Component';
 
 export default ${component};
 `;
