@@ -73,7 +73,7 @@ frontend/
         index.ts  # So that you can import from 'components/Example'
         ExampleComponent.tsx
         ExampleComponent.test.tsx
-        ExampleComponent.stories.tsx  # [Storybook](https://storybook.js.org/) stories
+        ExampleComponent.stories.tsx  # Your Storybook stories
     store/
       store.ts
       rootReducer.ts
