@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import '../../index.css';
-import Home from '.';
+import Example from '.';
 
-storiesOf('Home', module)
-  .add('default', () => <Home />);
+storiesOf('Example', module)
+  .add('default', () => <Example />);

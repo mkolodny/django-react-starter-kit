@@ -1,7 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Home: React.FC = () => {
+interface Props {
+}
+
+const Example: React.FC<Props> = (props) => {
   return (
     <Note>
       Bootstrapped and ready for action :)
@@ -15,4 +18,4 @@ const Note = styled.p`
   margin-top: 50px;
 `;
 
-export default Home;
+export default Example;
