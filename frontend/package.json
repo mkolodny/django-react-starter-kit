@@ -41,7 +41,9 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "create-component": "node scripts/create-component.js",
-    "cc": "node scripts/create-component.js"
+    "cc": "node scripts/create-component.js",
+    "create-reducer": "node scripts/create-reducer.js",
+    "cr": "node scripts/create-reducer.js"
   },
   "eslintConfig": {
     "extends": "react-app"

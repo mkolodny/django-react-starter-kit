@@ -81,7 +81,6 @@ frontend/
         exampleReducer.ts
         exampleReducer.test.ts
         exampleActions.ts
-        exampleActions.test.ts
 ```
 
 ## Running the App
@@ -138,7 +137,7 @@ yarn test
 
 ## Creating React Components
 
-To create a new component, you can just run
+To create a new component, you can just run:
 
 ```
 cd <your-project-directory>/frontend
@@ -164,6 +163,24 @@ To see what your components look like in isolation, run:
 ```
 cd <your-project-directory>/frontend
 yarn storybook
+```
+
+## Creating Redux Reducers
+
+To create a new reducer, you can just run:
+
+```
+cd <your-project-directory>/frontend
+yarn create-reducer <your-reducer-name>` // or `yarn cr <your-reducer-name>`
+```
+
+That will create a new directory inside of `<your-project-directory>/frontend/src/store/` with this file structure:
+
+```
+<your-reducer-name>/
+  <your-reducer-name>Reducer.ts
+  <your-reducer-name>Reducer.test.ts
+  <your-reducer-name>Actions.ts
 ```
 
 ## License
